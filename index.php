@@ -17,7 +17,7 @@ $token = $capability->generateToken();
 	<title>Twilio Client Browser Phone</title>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript" ></script>
 	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<script type="text/javascript" src="//static.twilio.com/libs/twiliojs/1.1/twilio.min.js"></script>
+	<script type="text/javascript" src="//static.twilio.com/libs/twiliojs/1.2/twilio.min.js"></script>
 
 	<script type="text/javascript">
 	 
