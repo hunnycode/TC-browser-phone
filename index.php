@@ -1,12 +1,12 @@
 <?php
 include 'Services/Twilio/Capability.php';
 
-$accountSid = 'your twilio account SID';
-$authToken  = 'your twilio Auth Token';
+$accountSid = 'YourTwilioAccountSID';
+$authToken  = 'YourTwilioAuthToken';
 
 $capability = new Services_Twilio_Capability($accountSid, $authToken);
-$capability->allowClientOutgoing('your twilio APP SID');
-$capability->allowClientIncoming("your twilio client name");
+$capability->allowClientOutgoing('YourTwilioAppSID');
+$capability->allowClientIncoming("YourTwilioClientName");
 $token = $capability->generateToken();
 ?>
 
