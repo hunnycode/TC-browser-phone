@@ -2,9 +2,9 @@
 header('Content-type: text/xml');
  
 // 発信者番号：Twilioから取得された電話番号
-$callerId = "your twilio tel number";
+$callerId = "YourTwilioTelNumber";
 // 受信者番号：Twilioの電話番号に電話をかけた際に受信者としてTwilio Client名を設定。（番号でも問題ない）
-$number = "your twilio client name";
+$number = "YourTwilioClientName";
 
 // 画面から入力された電話番号の取得
 if (isset($_REQUEST['PhoneNumber'])) {
